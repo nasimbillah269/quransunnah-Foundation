@@ -1,0 +1,978 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Ubuntu", sans-serif;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+  padding: 0;
+  margin: 0;
+}
+
+/* header top part css start */
+.headerTopPart {
+  padding-top: 14px ;
+}
+.socialLick {
+  text-align: center;
+}
+.socialLick ul li {
+  display: inline-block;
+}
+
+.socialLick ul li a {
+  color: #444;
+  padding: 0 7px;
+}
+
+.socialLick ul li i {
+  font-size: 20px;
+}
+.language .btn {
+    padding: 2px 11px;
+    font-size: 12px;
+    color: rgb(68, 68, 68);
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+.language .btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active {
+  color: #fff;
+  background-color: #008e48;
+  border-color: #008e48;
+}
+.headerLogo i {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #988989;
+  display: none;
+}
+
+/* header top part css end */
+
+/* header midil part css start */
+.headerMidilPart {
+  padding: 10px 0;
+}
+.headerLogo {
+  margin-bottom: 26px;
+}
+.headerLogo a img {
+  width: 70%;
+}
+.headerButton {
+  margin-top: 34px;
+}
+.headerButton a {
+  background-color: #008e48;
+  padding: 12px 17px;
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  margin: 0 2px;
+}
+/* header midil part css end */
+
+/* hader nav part css start */
+.headerNav {
+  background-color: #0a3b1e;
+  padding: 10px 0;
+}
+.navList ul li {
+    display: inline;
+}
+.navList ul li a {
+  padding: 0 14px;
+  color: #fff;
+  font-size: 15px;
+}
+
+/* hader nav part css end */
+
+/* mobile menu css start */
+
+/* mobile menu css end */
+
+/* donation part css start */
+.donationPartMain {
+  padding: 35px 0;
+  background-color: #f5f5f5;
+}
+
+.danationForm .form-control {
+  padding: 10px 12px;
+}
+.danationForm .form-select:focus {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: none;
+}
+.danationForm .form-select {
+  color: #6c757d;
+}
+.danationForm .form-control:focus {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: none;
+}
+
+form.danationForm {
+  padding: 37px 40px;
+  background-color: #fff;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+button.btnDonate {
+  border: none;
+  background-color: #008e48;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+/* donation part css end */
+
+/* banner part start */
+.bannerPart {
+  margin-top: 35px;
+}
+.bannerPart .carousel-inner {
+  border-radius: 10px;
+}
+/* banner part end */
+
+/* home about part css start */
+.homePageAboutPart {
+  padding: 30px 0;
+}
+.aboutLeftGrid {
+  padding: 20px;
+}
+
+.aboutLeftGrid img {
+  width: 100%;
+  border-radius: 50%;
+}
+.aboutRightGrid {
+  padding: 20px;
+}
+.aboutRightGrid h4 {
+  font-size: 24px;
+  color: #008e48;
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 10px;
+}
+.aboutRightGrid p {
+  font-size: 14px;
+  color: #444;
+  padding: 15px 0;
+  line-height: 22px;
+}
+
+/* timeline desing css start */
+
+.history-tl-container{
+    font-family: "Roboto",sans-serif;
+  display:block;
+  position:relative;
+}
+.history-tl-container ul.tl{
+  margin-top: 20px;
+  padding:0;
+  display:inline-block;
+
+}
+.history-tl-container ul.tl li{
+  list-style: none;
+  margin:auto;
+  min-height:50px;
+  /*background: rgba(255,255,0,0.1);*/
+  border-left: 2px solid lightgrey;
+  padding: 0px 0px 35px 23px;
+  position:relative;
+}
+.history-tl-container ul.tl li:last-child{ border-left:0;}
+.history-tl-container ul.tl li::before{
+  position: absolute;
+  left: -5px;
+  top: -2px;
+  content: " ";
+  border: 2px solid #52c41a;
+  border-radius: 50%;
+  background: #fefdff;
+  height: 10px;
+  width: 10px;
+  transition: all 500ms ease-in-out;
+
+}
+.history-tl-container ul.tl li:hover::before{
+  border-color:  #258CC7;
+  transition: all 1000ms ease-in-out;
+}
+.item-title {
+  font-size: 14px;
+  color: #008e48;
+}
+ul.tl li .item-detail{
+  color:rgba(0,0,0,0.5);
+  font-size:12px;
+}
+ul.tl li .timestamp{
+  color: #8D8D8D;
+  position: absolute;
+width:100px;
+  left: -50%;
+  text-align: right;
+  font-size: 12px;
+}
+/* timeline desing css end */
+
+
+/* home about part css end */
+
+/* Let's make a change together css  start  */
+.makeChangeTogetherPart {
+  background-color: #f5f5f5;
+  padding: 40px 0;
+}
+.makeChangeTogetherPart h4 {
+  font-size: 20px;
+  text-align: center;
+  color: #444;
+  padding-bottom: 28px;
+}
+
+
+.makeChangeTogetherPartGrid img {
+  width: 100%;
+}
+
+a.makeChangeTogetherPartGrid {
+  background-color: #fff;
+  display: block;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  border: 1px solid #f2eeee;
+}
+
+.gridInfo {
+  padding: 22px 15px;
+}
+
+.gridInfo h5 {
+  text-align: center;
+  color: #008e48;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.gridInfo p {
+  color: #444;
+  font-size: 14px;
+  padding: 12px 0;
+  line-height: 20px;
+  overflow-y: auto;
+  height: 100px;
+}
+
+.gridInfo button {
+  border: none;
+  background-color: #008e48;
+  display: block;
+  width: 100%;
+  color: #fff;
+  margin-top: 17px;
+  padding: 8px 0;
+  border-radius: 5px;
+}
+a.readMoreBtn {
+  text-align: center;
+  width: 25%;
+  padding: 8px 0px;
+  display: block;
+  background-color: #008e48;
+  color: #fff;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-top: 12px;
+}
+/* Let's make a change together css end  */
+
+/* continew project part css start */
+.continewProjectPart {
+  padding: 40px 0;
+}
+.continewProjectPart h4 {
+  font-size: 20px;
+  text-align: center;
+  color: #444;
+  padding-bottom: 28px;
+}
+a.continewProjectPartGrid img {
+  width: 100%;
+}
+a.continewProjectPartGrid {
+  border: 1px solid #f1ebeb;
+  display: block;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+/* continew project part css end */
+
+/* latest news part css start */
+.latestNewsPart {
+  background-color: #f5f5f5;
+  padding: 40px 0;
+}
+.latestNewsPart h4 {
+  font-size: 20px;
+  text-align: center;
+  color: #444;
+  padding-bottom: 28px;
+}
+a.latestNewsGrid {
+  display: block;
+  padding: 13px;
+  background-color: #fff;
+  border: 1px solid #ebe8e8;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.latestNewsGrid img {
+  width: 100%;
+  border-radius: 6px;
+}
+a.latestNewsGrid span {
+  font-size: 12px;
+  color: #444;
+  padding: 7px 0;
+  display: block;
+}
+a.latestNewsGrid p {
+  color: #262626;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+/* latest news part css end */
+
+/* Our activities part css start */
+.ourActivitiesPart {
+  padding: 40px 0;
+}
+.ourActivitiesPart h4 {
+  font-size: 20px;
+  text-align: center;
+  color: #444;
+  padding-bottom: 28px;
+}
+.ourActivitiesGrid {
+  padding: 20px;
+  background-color: #159985;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.ourActivitiesGrid h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+  padding: 30px 0;
+  line-height: 48px;
+}
+.ourActivitiesGrid p {
+  color: #fff;
+  text-align: center;
+  height: 119px;
+  overflow-y: auto;
+}
+.ourActivitiesGrid a {
+  background-color: #008e48;
+  color: #fff;
+  padding: 12px 13px;
+  text-align: center;
+  display: block;
+  width: 50%;
+  margin: 34px auto;
+  border-radius: 6px;
+}
+/* Our activities part css end */
+
+/* report css start */
+.reportPart {
+  background-color: #f5f5f5;
+  padding: 40px 0;
+}
+.reportPart h4 {
+  font-size: 20px;
+  text-align: center;
+  color: #444;
+  padding-bottom: 28px;
+}
+.reportGrid {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.reportGrid iframe {
+  width: 100%;
+  height: 200px;
+  border-radius: 7px;
+}
+.reportGrid p {
+  font-size: 15px;
+  text-align: center;
+  padding: 6px 0;
+}
+/* report css end */
+
+/* gallery part css start */
+.galleryPart{
+  padding: 40px 0;
+}
+.galleryPart h4 {
+  font-size: 20px;
+  text-align: center;
+  color: #444;
+  padding-bottom: 28px;
+}
+a.galleryGrid {
+  margin-bottom: 20px;
+  display: block;
+}
+a.galleryGrid img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+/* gallery part css end */
+
+/* contact part css start */
+.pageTitle {
+  background-color: #008e48;
+  padding: 30px 0;
+}
+
+.pageTitle h2 {
+  color: #fff;
+  text-align: center;
+}
+.contactPartMain {
+  padding: 40px 0;
+  background-color: #f5f5f5;
+}
+.contactLeftGrid {
+  padding: 30px 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  margin-bottom: 20px;
+}
+.contactLeftGrid h4 {
+  font-size: 18px;
+  color: #008e48;
+  padding-bottom: 24px;
+}
+.contactForm .form-label {
+  font-size: 12px;
+  text-align: right;
+  display: block;
+  margin-top: 8px;
+  padding: 0;
+}
+.contactForm .form-label span {
+  color: #f5222d;
+  font-size: 15px;
+  font-weight: bold;
+}
+.contactForm .form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #008e48;
+  outline: 0;
+  box-shadow: none;
+}
+.contactLeftGrid button {
+  border: none;
+  display: block;
+  width: 20%;
+  padding: 7px 6px;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #008e48;
+  color: #fff;
+  margin: 35px 0 0 auto;
+}
+.contactForm textarea {
+  height: 452px;
+}
+
+.googleMap {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.googleMap h4 {
+  font-size: 18px;
+  color: #008e48;
+  padding-bottom: 15px;
+}
+
+.addressDetais {
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 25px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.addressDetais h4 {
+  color: #008e48;
+  font-size: 18px;
+}
+.addressDetais h5 {
+  font-size: 16px;
+  padding: 10px 0;
+  font-weight: 500;
+  color: #008e48;
+}
+.addressDetais p {
+  font-size: 14px;
+  color: #545454;
+}
+/* contact part css end */
+
+/* footer part css start */
+.footerPart p {
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+.footerPart p span {
+  color: #008e48;
+  font-weight: bold;
+}
+.footerPart a {
+  color: #008e48;
+}
+/* footer part css end */
+
+
+/* about veritacl desing css start */
+.aboutMainDiv {
+  padding: 40px 0;
+  background-color: #f5f5f5;
+}
+
+.panel h1 {
+  font-size: 22px;
+  padding-bottom: 13px;
+  color: #444;
+}
+.panel ul li  {
+   font-size: 14px;
+    color: #444;
+    text-align: justify;
+    line-height: 23px;
+    margin-bottom: 14px;
+    list-style: circle;
+    margin-left: 16px;
+}
+
+.panel p {
+  font-size: 14px;
+  color: #444;
+  text-align: justify;
+  line-height: 23px;
+}
+
+#outerdiv {
+  display: flex;
+  margin: auto;
+  color: #fff;
+}
+.innerdiv1 {
+  flex: 1;
+}
+.innerdiv2 {
+  flex: 3;
+}
+
+.list {
+  padding: 22px;
+  background: #008e48;
+  border-bottom: thin solid #ffffff1a;
+}
+.list:last-child {
+  border-bottom: none;
+}
+
+.list:nth-child(even) {
+  background: #008e48;
+}
+
+.list:hover {
+  cursor: pointer;
+  background: #0a3b1e;
+}
+
+.list.active {
+  background: #0a3b1e;
+}
+
+.list.active::after {
+  content: "";
+  width: 45px;
+  height: 45px;
+  background: #0a3b1e;
+  position: absolute;
+  display: block;
+  transform: rotate(45deg);
+  margin: -36px 0 0 209px;
+}
+
+.panel {
+  background-color: #fff;
+  margin-left: 20px;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px 3px #e1e1e1;
+}
+
+.panelshow {
+  display: block;
+}
+.panelhide {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  #outerdiv {
+      flex-direction: column;
+  }
+  .innerdiv1 {
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .list {
+      flex: 1;
+  }
+  #outerdiv {
+      width: 100%;
+  }
+  .list.active::after {
+      display: none;
+  }
+  .list:last-child {
+      border-bottom: thin solid #ffffff1a;
+  }
+  .list.active::after {
+      content: "";
+      width: 20px;
+      height: 20px;
+      background: #336372;
+      position: absolute;
+      display: block;
+      transform: rotate(45deg);
+      margin: 20px 0 0 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .list {
+      padding: 15px;
+  }
+  .list.active::after {
+      display: none;
+  }
+  .innerdiv1 {
+      display: block;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .list {
+      padding: 15px;
+  }
+  .list.active::after {
+      display: none;
+  }
+  .panel {
+      margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 542px) {
+  span {
+      display: none;
+  }
+  .list {
+      text-align: center;
+  }
+  .list.active::after {
+      display: none;
+  }
+    .innerdiv1 {
+      display: block;
+      margin-bottom: 20px;
+  }
+  .list span {
+      display: block;
+  }
+  .panel {
+      margin-left: 0;
+  }
+}
+/* about veritacl desing css end */
+
+/* membership part css start */
+.membershipRightGrid h2 {
+  font-size: 19px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #444;
+}
+.membershipPart {
+  padding: 40px 0;
+  background-color: #f5f5f5;
+}
+.membershipLeftGrid {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  margin-bottom: 20px;
+}
+
+.membershipLeftGrid h4 {
+  color: #444;
+  font-size: 20px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.membershipLeftGrid p {
+  font-size: 14px;
+  padding-bottom: 12px;
+  text-align: justify;
+}
+.membershipRightGrid p {
+  text-align: center;
+  font-size: 14px;
+  padding: 10px 0;
+}
+.membershipRightGrid {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+.membershipRightGrid button {
+  border: none;
+  padding: 8px 20px;
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #008e48;
+}
+.requadText{
+  color: red;
+}
+/* membership part css end */
+
+/* volunteer registration css part start */
+
+.volunteerRegistrationPart {
+  padding: 40px 0;
+  background-color: #f5f5f5;
+}
+.volunteerRegistrationForm {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.volunteerRegistrationForm textarea {
+  height: auto;
+}
+.volunteerRegistrationGrid h3 {
+  font-size: 19px;
+  padding-bottom: 20px;
+  color: #444;
+}
+.volunteerRegistrationForm p {
+  color: red;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
+.volunteerRegistrationForm button {
+  border: none;
+  padding: 7px 10px;
+  text-align: center;
+  width: 100%;
+  background-color: #008e48;
+  color: #fff;
+  font-size: 14px;
+  margin: 17px 0;
+  border-radius: 5px;
+}
+.volunteerRegistrationForm input::placeholder {
+  font-size: 14px;
+  color: #bfbfcd;
+}
+.volunteerRegistrationForm textarea::placeholder {
+  font-size: 14px;
+  color: #bfbfcd;
+}
+.volunteerRegistrationForm select {
+  font-size: 14px;
+  color: #bfbfcd;
+}
+/* volunteer registration css part end */
+
+/* course part css start */
+.coursePart {
+  background-color: #f5f5f5;
+  padding: 40px 0;
+}
+.courses {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 8px 3px #e1e1e1;
+}
+.courses h4 {
+  font-size: 19px;
+  color: #444;
+  padding-bottom: 12px;
+}
+.courses p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.courses h6 {
+  margin: 20px 0;
+  font-size: 17px;
+  font-weight: 600;
+  color: #444;
+}
+.courses ul li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+/* course part css end */
+
+
+/* mobile menu css start */
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  width: 100%;
+  margin-left: 30px;
+  margin-top: 40px;
+
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 19px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: -20px;
+  right: 15px;
+  color: #fff;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+/* mobile menu css end */
+
+
+/* media query css start for mobile device */
+
+@media screen and (max-width: 768px) {
+      .headerButton {
+          margin-top: 7px;
+      }
+      .headerLogo {
+          margin-bottom: 14px;
+          margin-top: 5px;
+      }
+    .headerButton a {
+        padding: 5px 5px;
+        font-size: 12px;
+    }
+    .headerLogo a img {
+        width: 50%;
+    }
+    .headerNav {
+        background-color: #0a3b1e;
+        padding: 10px 0;
+        display: none;
+    }
+    .headerLogo i {
+      display:  inline-block;
+    }
+    .danationForm .form-control {
+        margin-bottom: 15px;
+    }
+    a.readMoreBtn {
+      width: 100%;
+    }
+    .headerButton a {
+        margin: 0;
+    }
+    .contactForm .form-label {
+        text-align: left;
+    }
+    .contactLeftGrid button {
+        width: 40%;
+    }
+}
